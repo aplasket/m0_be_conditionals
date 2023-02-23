@@ -22,24 +22,31 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
+p "Is number_teachers less than number_students?", number_teachers < number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+p "Is number_teachers == string_teachers?", number_teachers == string_teachers
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+p "Is number_teachers not equal to  string_teachers?", number_teachers != string_teachers
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+p "Is number_students greater than or equal to 20?", number_students >= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+p "is number_students greater than or equal to 21?", number_students >= 21
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+p "Is number_students less than or equal to 20?", number_students <= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+p "Is number_students less than or equal to 21?", number_students <= 21
 # this should print: true
 
 
@@ -53,21 +60,29 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: print the result of the comparison: is the integer 4 less than integer 9? 
+# This will print true since 4 is less than 9.
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: The variable books is assigned a value of 3 (integer). 
+# Print the result of the comparison: is the integer 4 less than the assignment from the above variable books?
+# This will print false, since 4 is greater than the variable assigned in books (3)
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: There are 2 variables assigned. The friends variable is assigned an integer value of 6 
+# and the siblings variable is assigned an integer value of 2.
+# Print the result of the comparison: is friends greater than siblings?
+# This will print true, since 6 is greater than 2
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: the Attendees variable is assigned the integer 9. Meals variable is assigned the integer 8.
+# Print the result of the comparison: is attendees not equal to meals? 
+# This should print true, since 9 is not equal to 8
 
 
 #-------------------
