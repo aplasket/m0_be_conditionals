@@ -105,15 +105,18 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+p loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+p loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+p loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+p loves_to_play && age < 1
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: it resulted in false, because the conditions for the age are not met. 
+# The dog is 1, and in order to be defined as a puppy it needs to be less than 1.
+# So even though it's `true` that the dog loves to play, the second condition of the dog being less than 1 is not met.
