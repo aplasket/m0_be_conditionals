@@ -63,12 +63,16 @@ end
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
-cups_of_flour = 5
-has_sauce = false
+cups_of_flour = 1
+has_sauce = true
 
 p "Do I have enough ingredients to make a pizza?"
-if cups_of_flour >= 2 && has_sauce == true
+if cups_of_flour >= 2 && has_sauce 
   p "I can make pizza"
 else
   p "I cannot make pizza"
 end
+
+# fix has_sauce to not include == true, because it's a boolean, `&& has_sauce == true` on line 69 is redundant. 
+# if you want it to have the boolean needs to be false, then you'd put:
+# `if cups_of_flour >= 2 && !has_sauce` the !has_sauce means has_sauce is false.
